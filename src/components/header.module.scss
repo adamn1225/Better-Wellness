@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+// colors
+$main: #087CDB;
+
+//responsive
+$small-w: 375px;
+$large-w: 1200px;
+$small-h: 667px;
+$large-h: 812px;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    position: fixed;
+    padding: .5rem 5rem 0rem;
+    background: white;
+    // -webkit-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.3);
+    // -moz-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.3); 
+    z-index: 10002;
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .header {
+        padding: .5rem 1rem 0rem;
+        font-size: 1rem;
+        float: left;
+    }
+}
+
+.title {  
+    // color:#087CDB;
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 5rem;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: $small-w) and (max-height: $small-h) {
+    .title {
+        font-size: 1.5rem;
+    }
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-item {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .mcNum{
+        display: none !important;
+    }
+}
+
+.nav-item{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-right: 2.2rem;
+    text-decoration: none;
+}
+
+.flexContainer {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.mcNum {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+
+.mcNum > p {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(24, 59, 88);
+}
+
+.mcNum > p > a{
+    color: rgb(24, 59, 88) !important;
+    text-decoration: underline;
+}
+
+.vline {
+    border-left: thin solid grey;
+    padding-left: 10px;
+}
+
+// .Buttonvline {
+//     border-left: thin solid grey;
+//     display: flex;
+//     align-items: ;
+// }
+
+.nav-item:hover {
+    color: #666;
+}
+
+.active-nav-item {
+    color: $main;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdownItems {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdownItems a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dropdownItems a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdownItems {display: block;}
+
+  @media only screen and (min-width: 900px) {
+    .mobList {
+        display: none !important;
+    }
+}
+
+
+
+
+.mobItems {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 10;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.mobItems a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.mobList:hover .mobItems {display: block;}
+
+.mobItems a:hover {background-color: #ddd;}
