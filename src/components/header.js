@@ -28,28 +28,25 @@ const Header = () => {
                 <ul className={headerStyles.navList}>
                     <li>
                 <Link className={headerStyles.title} to="/">
-                    {data.site.siteMetadata.title}
+                <img className={headerStyles.ggLogo} src={require("../images/gg-logo.png")} />
                 </Link>
             </li>
                     <li>
                 <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/">Home</Link> 
                     </li><br />
-                    <li>
-                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/blog">Blog</Link>
-                    </li><br />
                      <li> 
                     <div className={headerStyles.dropdown}>
-                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/about">Transport Services</Link>
+                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/blog">Products</Link>
                       <div className={headerStyles.dropdownItems}>
-                       <a href="#">Link 1</a>
-                       <a href="#">Link 2</a>
-                       <a href="#">Link 3</a>
+                       <a href="#">Gummies</a>
+                       <a href="#">Oils</a>
+                       <a href="#">Creams</a>
                      </div>
                     </div>
                     </li>
                     <br />
                     <li>
-                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/how">How it Works</Link>
+                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/how">Our Story</Link>
                     </li>
 
 
@@ -73,7 +70,7 @@ const Header = () => {
 
               <div className={headerStyles.mcNum}>
               <p>
-              MC# 1322334 
+              FB | IG
               </p>
               <p className={headerStyles.vline}>Talk To Us!<br /> <a href="tel:800-888-8888">800-888-8888</a></p>
               </div>

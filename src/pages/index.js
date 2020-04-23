@@ -18,19 +18,15 @@ const IndexPage = () => {
                 <div className="topBanner">
             <div className="formText">
             <Col>
-            <h1>Getting a Quote is Free & Easy</h1>
-            <h2>We Care About Your Shipment</h2>
-            <h4>- Door-to-Door Service</h4>
-            <h4>- Bonded & Insured Carriers</h4>
-            <h4>- Supreme Costumer Service</h4><br />
-            <h4><strong>Fill out the form below for a shipping quote</strong></h4>
+            <h1>CBD Stuff</h1>
+            <h4><strong>Shop our Broad Variety of CBD Products</strong></h4>
 
                 <div className="topButtons">
                   <div className="quoteButton">
-                    <Link to="/form"><Button variant="info">Get a Free Estimate</Button></Link>
+                    <a href="https://www.goldengoatcbd.com"><Button variant="success">Shop Now</Button></a>
                   </div>
                   <div className="careerButton">
-                    <Link to="/form"><Button variant="outline-info">Ship for Us</Button></Link>
+                    <Link to="/form"><Button variant="outline">Get Info</Button></Link>
                    </div>
                 </div>
 
@@ -45,34 +41,93 @@ const IndexPage = () => {
                 </div>
                 </section>
                 
-           
-               <Container>        
+           <div className="second">
+               <Container className="homeShop">     
+                   <h1 align="center">Our Products</h1>   
                    <Row>
                    <div className="transportTypes">
                        <Col>
-                       <h5>OPEN TRAILER TRANSPORT</h5>
+                       <h5>CBD Creams</h5>
                        <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/plasticine/64/000000/car.png"></img>
+                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
                        </LazyLoad>
-                       <p>Transporting with an open carrier can be a cheaper option...</p>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                        </Col>
                        <Col>
-                       <h5>ENCLOSED TRANSPORT</h5>
+                       <h5>CBD Gummies</h5>
                        <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/cotton/64/000000/truck.png"></img>
+                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
                        </LazyLoad>
-                       <p>Enclosed carriers could be the best option for you if you're transporting a luxury vehicle</p>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                        </Col>
                        <Col>
-                       <h5>HEAVY TRANSPORT</h5>
+                       <h5>CBD Oils</h5>
                        <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/dusk/64/000000/bulldozer.png"></img>
+                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
                        </LazyLoad>
-                       <p>What goes into heavy freight transport? </p>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                        </Col>
                        </div>
                    </Row>
                </Container>
+                          
+               <Container>        
+                   <Row>
+                   <div className="transportTypes">
+                       <Col>
+                       <h5>CBD Creams</h5>
+                       <LazyLoad height={200} offset={10} >
+                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
+                       </LazyLoad>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       </Col>
+                       <Col>
+                       <h5>CBD Gummies</h5>
+                       <LazyLoad height={200} offset={10} >
+                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
+                       </LazyLoad>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       </Col>
+                       <Col>
+                       <h5>CBD Oils</h5>
+                       <LazyLoad height={200} offset={10} >
+                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
+                       </LazyLoad>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       </Col>
+                       </div>
+                   </Row>
+               </Container>
+                          
+               <Container>        
+                   <Row>
+                   <div className="transportTypes">
+                       <Col>
+                       <h5>CBD Creams</h5>
+                       <LazyLoad height={200} offset={10} >
+                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
+                       </LazyLoad>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       </Col>
+                       <Col>
+                       <h5>CBD Gummies</h5>
+                       <LazyLoad height={200} offset={10} >
+                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
+                       </LazyLoad>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       </Col>
+                       <Col>
+                       <h5>CBD Oils</h5>
+                       <LazyLoad height={200} offset={10} >
+                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
+                       </LazyLoad>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       </Col>
+                       </div>
+                   </Row>
+               </Container>
+
+               </div>
 
             {/* <section>
               <div className="second">
@@ -87,12 +142,27 @@ const IndexPage = () => {
                 </Col>
               </div>
           </section> */}
-                <Container>
+
+                 <article className="aboutUs">
+                  <h3>About Better Wellness</h3><br />
+                  <Container>
+                      <Col>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                      </Col>
+                  </Container>
+                  </article>
+
+
+                  <Testimonials />
+
+
+                  <Container>
                     <div className="atozShipping">
                     
                     <Col className="howItIs">
-                    <h2>How It Is To Ship With A-to-Z</h2>
-                    <p>We make shipping cheap by directly connection you with carriers who have extra truck space.</p>
+                    <h2>Post About CBD</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                     <Link to="./">Read More</Link>
                     </Col>
                     <Col>
@@ -108,17 +178,14 @@ const IndexPage = () => {
                     </LazyLoad>
                     </Col>
                     <Col className="business">
-                    <h2>Shipping For The Business Owner</h2>
-                    <p>We take care of everything - scheduling, paperwork, payment, and etc. We help you transport faster so that you can focus on taking care of your business. </p>
+                    <h2>Post About CBD</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                     <Link to="./">Read More</Link>
                     </Col>
                     </div>
                 </Container>
 
-
-                  <Testimonials />
-
-                  <Container>
+                  {/* <Container>
                   <Row>
                   <LazyLoad height={200} offset={10} >
                   <div className="services">
@@ -145,7 +212,7 @@ const IndexPage = () => {
                       </div>
                       </LazyLoad>
                   </Row>
-                  </Container>
+                  </Container> */}
                   <article className='ctaSection'>
                       <Col className="cta">
                       <h2>Ready To Get Your Shippment Booked With A to Z Logisitcs?</h2>
@@ -154,19 +221,6 @@ const IndexPage = () => {
                       </Col>              
                  </article>
 
-                 <article className="aboutUs">
-                  <h3>Why You Should Work With One of the Best Transport Companies</h3><br />
-                  <Container>
-                      <Col>
-                      <p>With over 10 years of experience in the hauling industry, we have the capability to take you to the moon. Expect supreme customer service and expert solutions for your shippment. We're here for you 365/24/7.</p>
-                      <p>With over 10 years of experience in the hauling industry, we have the capability to take you to the moon. Expect supreme customer service and expert solutions for your shippment. We're here for you 365/24/7.</p>
-                      </Col>
-                      <Col>
-                      <img src="https://img.icons8.com/dusk/64/000000/treasure-map.png"></img>
-                     
-                      </Col>
-                  </Container>
-                  </article>
           
         </Layout>
     )

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 // colors
-$main: #087CDB;
+$main: #f3af18;
 
 //responsive
 $small-w: 375px;
@@ -49,6 +49,11 @@ nav {
     vertical-align: middle;
     white-space: nowrap;
     font-family: 'Lato', sans-serif;
+}
+
+.ggLogo {
+    width: 60px;
+    height: 60px;
 }
 
 @media only screen and (max-width: $small-w) and (max-height: $small-h) {
@@ -106,11 +111,11 @@ nav {
 .mcNum > p {
     margin-left: 10px;
     margin-right: 10px;
-    color: rgb(24, 59, 88);
+    color: #f3af18;
 }
 
 .mcNum > p > a{
-    color: rgb(24, 59, 88) !important;
+    color: black !important;
     text-decoration: underline;
 }
 
