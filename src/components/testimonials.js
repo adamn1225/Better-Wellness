@@ -15,16 +15,16 @@ function Testimonials() {
     
     <Carousel className={testStyles.reviews} activeIndex={index} direction={direction} onSelect={handleSelect}>
         <Carousel.Item>
-        <h1>Earl Taylor</h1>
-                <p>"Had to get my Porche shipped enclosed my car from NJ to Miami and back. Rivka did a terrific job from start to finish. A to Z Logisitics were very professional. "</p>
+        <h1>Allison H.</h1>
+                <p>"I am on medication for both chronic pain and anxiety. I’ve noticed since I’ve been taking the gummies I haven’t had to take my pain or anxiety meds as much. They’ve been a huge relief and I absolutely recommend them and will be ordering them again!!"</p>
         </Carousel.Item>
         <Carousel.Item>
-        <h1>Scott Evans</h1>
-                <p>"A-to-Z Logistics got the job down. Will definitely be using them again for my equipment."</p>
+        <h1>Kymberly O.</h1>
+                <p>"Even though I ordered the regular gummy worms, I cannot complain, this came so quick and packaged wonderfully. I think there’s plenty in there and they are very relaxing with just taking two. I know I will be trying more products from you and recommend you as well. Thank you"</p>
         </Carousel.Item>
         <Carousel.Item>
-        <h1>Tyler Ross</h1>
-                <p>"Mark over at A to Z Logistics did a super job in securing me a car shippment from Los Angeles to Hawaii"</p>
+        <h1>Guest</h1>
+                <p>"I use the gummies at night to help with sleep. These are by far the best ones I’ve found and the price through Groupon can’t be beat! Golden Goat is fabulous with the shipping and I don’t have any complaints! They are great!"</p>
         </Carousel.Item>
     </Carousel>
     

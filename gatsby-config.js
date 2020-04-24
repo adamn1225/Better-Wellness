@@ -7,7 +7,7 @@
 module.exports = {
     siteMetadata: {
       title: 'Better Wellness',
-      author: 'Adam'
+      author: 'Better Wellnes USA'
     },
     plugins: [
       'gatsby-plugin-sass',

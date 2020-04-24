@@ -18,8 +18,8 @@ const IndexPage = () => {
                 <div className="topBanner">
             <div className="formText">
             <Col>
-            <h1>CBD Stuff</h1>
-            <h4><strong>Shop our Broad Variety of CBD Products</strong></h4>
+            <h1>Hemp Stuff</h1>
+            <h4><strong>Shop our Broad Variety of Hemp Products</strong></h4>
 
                 <div className="topButtons">
                   <div className="quoteButton">
@@ -30,12 +30,6 @@ const IndexPage = () => {
                    </div>
                 </div>
 
-                
-                </Col>
-                <Col>
-                <div className="truck-banner">
-                    {/* <img src={require("../images/truck-hero-banner1.png")} /> */}
-                </div>
                 </Col>
                 </div>
                 </div>
@@ -47,81 +41,51 @@ const IndexPage = () => {
                    <Row>
                    <div className="transportTypes">
                        <Col>
-                       <h5>CBD Creams</h5>
                        <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
+                       <img className="relaxing" src={require("../images/oil.jpg")} alt="" />
                        </LazyLoad>
-                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       <h5>Coconut Oils</h5>
+                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-coconut-oil/"><Button variant="success">Shop Now</Button></a>
+                       </Col>
+
+                       <Col>
+                       <LazyLoad height={200} offset={10} >
+                       <img className="relaxing" src={require("../images/pain.jpg")} alt="" />
+                       </LazyLoad>
+                       <h5>Pain Relief</h5>
+                       <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        <Col>
-                       <h5>CBD Gummies</h5>
                        <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
+                       <img className="relaxing" src={require("../images/honey.jpg")} alt="" />
                        </LazyLoad>
-                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                       </Col>
-                       <Col>
-                       <h5>CBD Oils</h5>
-                       <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
-                       </LazyLoad>
-                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       <h5>Honey</h5>
+                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-honey-sticks/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        </div>
-                   </Row>
-               </Container>
-                          
-               <Container>        
+                   </Row>      
                    <Row>
                    <div className="transportTypes">
                        <Col>
-                       <h5>CBD Creams</h5>
                        <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
+                       <img className="relaxing" src={require("../images/mct.png")} alt="" />
                        </LazyLoad>
-                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       <h5>MCT Oils</h5>
+                       <a href="https://goldengoatcbd.com/index.php/product-category/mct-oil/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        <Col>
-                       <h5>CBD Gummies</h5>
                        <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
+                       <img className="relaxing" src={require("../images/pets.jpg")} alt="" />
                        </LazyLoad>
-                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       <h5>Pet Products</h5>
+                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-treats-for-pets/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        <Col>
-                       <h5>CBD Oils</h5>
                        <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
+                       <img className="relaxing" src={require("../images/hempoil.jpg")} alt="" />
                        </LazyLoad>
-                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                       </Col>
-                       </div>
-                   </Row>
-               </Container>
-                          
-               <Container>        
-                   <Row>
-                   <div className="transportTypes">
-                       <Col>
-                       <h5>CBD Creams</h5>
-                       <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
-                       </LazyLoad>
-                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                       </Col>
-                       <Col>
-                       <h5>CBD Gummies</h5>
-                       <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
-                       </LazyLoad>
-                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                       </Col>
-                       <Col>
-                       <h5>CBD Oils</h5>
-                       <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/plasticine/100/000000/marijuana-leaf.png"></img>
-                       </LazyLoad>
-                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                       <h5>Essential Oils</h5>
+                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-oil-extract/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        </div>
                    </Row>
@@ -215,9 +179,9 @@ const IndexPage = () => {
                   </Container> */}
                   <article className='ctaSection'>
                       <Col className="cta">
-                      <h2>Ready To Get Your Shippment Booked With A to Z Logisitcs?</h2>
-                      <h4>Click to button below to get a free shipping quote or <b><a href="tel:954-826-4318">CALL US!</a></b></h4>
-                      <Button>Get A Quote Instantly</Button>
+                      <h2>Get 50% Off With Your Purchase!</h2>
+                      <h4>Click to button below to start shopping or <b><a href="tel:954-826-4318">CALL US!</a></b></h4>
+                      <Button>Shop Now</Button>
                       </Col>              
                  </article>
 

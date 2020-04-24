@@ -36,22 +36,24 @@ const Header = () => {
                     </li><br />
                      <li> 
                     <div className={headerStyles.dropdown}>
-                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/blog">Products</Link>
+                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="https://goldengoatcbd.com/index.php/shop/">Products</a>
                       <div className={headerStyles.dropdownItems}>
-                       <a href="#">Gummies</a>
-                       <a href="#">Oils</a>
-                       <a href="#">Creams</a>
+                      <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/">Pain Relief</a>
+                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-treats-for-pets/">Pets</a>
+                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-coconut-oil/">Coconut Oils</a>
+                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-oil-extract/">Hemp Oils</a>
+                       <a href="https://goldengoatcbd.com/index.php/product-category/mct-oil/">MCT Oils</a>
                      </div>
                     </div>
                     </li>
                     <br />
                     <li>
-                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/how">Our Story</Link>
+                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="https://goldengoatcbd.com/index.php/about-us/">About</a>
                     </li>
 
 
                      <li>
-                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/contact">Contact</Link>
+                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="https://goldengoatcbd.com/index.php/contact/">Contact</a>
                     </li>
 
                 </ul>
