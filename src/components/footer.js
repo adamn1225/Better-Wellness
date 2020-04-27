@@ -5,6 +5,9 @@ import { Link } from 'gatsby'
 import footerStyles from './footer.module.scss'
 import { Container, Row, Col } from 'reactstrap';
 
+import FacebookIcon from '@material-ui/icons/Facebook'
+import InstagramIcon from '@material-ui/icons/Instagram'
+
 const Footer = () => {
     const data = useStaticQuery(graphql`
     query {
