@@ -41,7 +41,6 @@ const IndexPage = () => {
                    <Row>
                    <div className="transportTypes">
                        <Col>
-                       >
                        <img className="relaxing" src={require("../images/oil.jpg")} alt="" />
                        
                        <h5>Coconut Oils</h5>
