@@ -33,8 +33,8 @@ const Footer = () => {
                 <p>EMAIL: <a href="">info@betterwellnessusa.com</a></p>
                </Col>
                <Col className={footerStyles.footerSocial}>
-              <a>Facebook</a>
-              <a>Instagram</a>
+               <FacebookIcon color="primary" fontSize="medium"/>
+              <InstagramIcon color="secondary" fontSize="medium"/>
                </Col>
               </Row>
             </Container>

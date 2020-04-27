@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
-import { Button } from 'react-bootstrap';
 import headerStyles from './header.module.scss'
 import FaAlignJustify from 'react-icons/lib/fa/align-justify'
+import FacebookIcon from '@material-ui/icons/Facebook'
+import InstagramIcon from '@material-ui/icons/Instagram'
+import { Button } from 'react-bootstrap';
 
 
 const Header = () => {
@@ -72,9 +74,9 @@ const Header = () => {
 
               <div className={headerStyles.mcNum}>
               <p>
-              FB | IG
+              <FacebookIcon color="primary" fontSize="medium"/> | <InstagramIcon color="secondary" fontSize="medium"/>
               </p>
-              <p className={headerStyles.vline}>Talk To Us!<br /> <a href="tel:800-888-8888">800-888-8888</a></p>
+              <p className={headerStyles.vline}><a href="https://www.goldengoatcbd.com"><Button variant="success">Shop Now</Button></a></p>
               </div>
               </div>
             </nav>
