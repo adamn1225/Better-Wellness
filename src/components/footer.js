@@ -23,7 +23,7 @@ const Footer = () => {
              <Container>
               <Row className={footerStyles.linkRow}>
                <Col className={footerStyles.footerSocial} activeClassName={footerStyles.activeNavItem}>
-               <h5>OUR Products</h5>
+               <h5>Our Products</h5>
                <Link>Hemp Oil</Link>
                <Link>Coconut Oil</Link>
                <Link>Pain Cream</Link>
