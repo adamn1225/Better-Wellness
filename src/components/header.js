@@ -65,9 +65,9 @@ const Header = () => {
                 <div className={headerStyles.mobList}>
                     <h1><FaAlignJustify /></h1>
                     <div className={headerStyles.mobItems}>
-                       <Link to="/blog">Blog</Link>
-                       <a href="#">Link 2</a>
-                       <a href="#">Link 3</a>
+                       <a href="https://goldengoatcbd.com/index.php/shop/">Products</a>
+                       <a href="https://goldengoatcbd.com/index.php/about-us/">About Us</a>
+                       <a href="https://goldengoatcbd.com/index.php/contact/">Contact</a>
                     </div>
                 </div>
 

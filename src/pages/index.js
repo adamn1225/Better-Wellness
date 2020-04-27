@@ -41,24 +41,24 @@ const IndexPage = () => {
                    <Row>
                    <div className="transportTypes">
                        <Col>
-                       <LazyLoad height={200} offset={10} >
+                       >
                        <img className="relaxing" src={require("../images/oil.jpg")} alt="" />
-                       </LazyLoad>
+                       
                        <h5>Coconut Oils</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/cbd-coconut-oil/"><Button variant="success">Shop Now</Button></a>
                        </Col>
 
                        <Col>
-                       <LazyLoad height={200} offset={10} >
+                      
                        <img className="relaxing" src={require("../images/pain.jpg")} alt="" />
-                       </LazyLoad>
+                    
                        <h5>Pain Relief</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        <Col>
-                       <LazyLoad height={200} offset={10} >
+                      
                        <img className="relaxing" src={require("../images/honey.jpg")} alt="" />
-                       </LazyLoad>
+                       
                        <h5>Honey</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/cbd-honey-sticks/"><Button variant="success">Shop Now</Button></a>
                        </Col>
