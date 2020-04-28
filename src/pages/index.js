@@ -18,12 +18,12 @@ const IndexPage = () => {
                 <div className="topBanner">
             <div className="formText">
             <Col>
-            <h1>Hemp Stuff</h1>
-            <h4><strong>Shop our Broad Variety of Hemp Products</strong></h4>
+            <h1>Healthy living has never been easier.</h1>
+            <h4><strong>search our large collection of Hemp Products</strong></h4>
 
                 <div className="topButtons">
                   <div className="quoteButton">
-                    <a href="https://www.goldengoatcbd.com"><Button variant="success">Shop Now</Button></a>
+                    <a href="https://goldengoatcbd.com/index.php/shop/"><Button variant="success">Shop Now</Button></a>
                   </div>
                   <div className="careerButton">
                     <Link to="/form"><Button variant="outline">Get Info</Button></Link>
@@ -106,21 +106,24 @@ const IndexPage = () => {
               </div>
           </section> */}
 
+                  <Testimonials />
+
                  <article className="aboutUs">
-                  <h3>About Better Wellness</h3><br />
+                  <h3>Who We Are</h3><br />
                   <Container>
                       <Col>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                      <p>Golden Goat is an American-based company that promotes better and safer hemp-based alternatives for ease and comfort of mind and body.
+                       Customer satisfaction is our top priority. We strive to exceed your expectations by providing excellent quality, natural ingredients, innovative products and exceptional customer service.</p>
+                     
                       </Col>
                   </Container>
                   </article>
 
 
-                  <Testimonials />
+                 
 
 
-                  <Container>
+                  {/* <Container>
                     <div className="atozShipping">
                     
                     <Col className="howItIs">
@@ -146,7 +149,7 @@ const IndexPage = () => {
                     <Link to="./">Read More</Link>
                     </Col>
                     </div>
-                </Container>
+                </Container> */}
 
                   {/* <Container>
                   <Row>
@@ -178,9 +181,10 @@ const IndexPage = () => {
                   </Container> */}
                   <article className='ctaSection'>
                       <Col className="cta">
-                      <h2>Get 50% Off With Your Purchase!</h2>
-                      <h4>Click to button below to start shopping or <b><a href="tel:954-826-4318">CALL US!</a></b></h4>
-                      <Button>Shop Now</Button>
+                      <h2>Get 10% Off With Your Purchase</h2>
+                      <div className="quoteButton">
+                    <a href="https://goldengoatcbd.com/index.php/shop/"><Button variant="success">Shop Now</Button></a>
+                  </div>
                       </Col>              
                  </article>
 
