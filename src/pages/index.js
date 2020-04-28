@@ -18,7 +18,7 @@ const IndexPage = () => {
                 <div className="topBanner">
             <div className="formText">
             <Col>
-            <h1>Healthy living has never been easier.</h1>
+            <h1>Healthy living has never been easier</h1>
             <h4><strong>search our large collection of Hemp Products</strong></h4>
 
                 <div className="topButtons">
