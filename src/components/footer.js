@@ -36,7 +36,7 @@ const Footer = () => {
                 <p>EMAIL: <a href="">info@betterwellnessusa.com</a></p>
                </Col>
                <Col className={footerStyles.footerSocial}>
-               <a href="https://www.facebook.com/Golden-Goat-USA-111089043919165/?__tn__=%2Cd%2CP-R&eid=ARD8D0rE6f3v-wJIiaiR1ytYQ5sVfIsOLn17CYcABzpDfKfMPDIkDipoDDwOeIoDepFVbLalc1KIvo2L"><FacebookIcon color="primary" fontSize="medium"/></a>
+               <a href="<FacebookIcon color="primary" fontSize="medium"/>"><FacebookIcon color="primary" fontSize="medium"/></a>
               <InstagramIcon color="secondary" fontSize="medium"/>
                </Col>
               </Row>
