@@ -74,7 +74,7 @@ const Header = () => {
 
               <div className={headerStyles.mcNum}>
               <p>
-              <FacebookIcon color="primary" fontSize="medium"/> | <InstagramIcon color="secondary" fontSize="medium"/>
+              <a href="https://www.facebook.com/Golden-Goat-USA-111089043919165/?__tn__=%2Cd%2CP-R&eid=ARD8D0rE6f3v-wJIiaiR1ytYQ5sVfIsOLn17CYcABzpDfKfMPDIkDipoDDwOeIoDepFVbLalc1KIvo2L"><FacebookIcon color="primary" fontSize="medium"/></a>
               </p>
               <p className={headerStyles.vline}><a href="https://www.goldengoatcbd.com"><Button variant="success">Shop Now</Button></a></p>
               </div>
