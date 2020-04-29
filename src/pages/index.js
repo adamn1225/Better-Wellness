@@ -2,9 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Testimonials from "../components/testimonials"
-import UserForm from '../components/UserForm'
 import LazyLoad from 'react-lazyload';
-
+import { Helmet } from "react-helmet"
 import '../styles/styles.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
@@ -13,6 +12,11 @@ import { Container, Row, Col } from 'reactstrap';
 const IndexPage = () => {
     return (
         <Layout>
+
+            <Helmet>
+          <meta charSet="utf-8" />
+          <title>Golden Goat USA - Best Prices for the Best Hemp Products</title>
+           </Helmet> 
            
             <section className="topSec">
                 <div className="topBanner">
@@ -49,14 +53,14 @@ const IndexPage = () => {
 
                        <Col>
                       
-                       <img className="relaxing" src={require("../images/pain.jpg")} alt="" />
+                       <img className="relaxing" src={require("../images/pain.jpg")} alt="hemp pain cream" />
                     
                        <h5>Pain Relief</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        <Col>
                       
-                       <img className="relaxing" src={require("../images/honey.jpg")} alt="" />
+                       <img className="relaxing" src={require("../images/honey.jpg")} alt="hemp honey products" />
                        
                        <h5>Honey</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/cbd-honey-sticks/"><Button variant="success">Shop Now</Button></a>
@@ -67,23 +71,23 @@ const IndexPage = () => {
                    <div className="transportTypes">
                        <Col>
                        <LazyLoad height={200} offset={10} >
-                       <img className="relaxing" src={require("../images/mct.png")} alt="" />
+                       <img className="relaxing" src={require("../images/mct.png")} alt="mct hemp oil" />
                        </LazyLoad>
                        <h5>MCT Oils</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/mct-oil/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        <Col>
                        <LazyLoad height={200} offset={10} >
-                       <img className="relaxing" src={require("../images/pets.jpg")} alt="" />
+                       <img className="relaxing" src={require("../images/pets.jpg")} alt="hemp product for pets" />
                        </LazyLoad>
                        <h5>Pet Products</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/cbd-treats-for-pets/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        <Col>
                        <LazyLoad height={200} offset={10} >
-                       <img className="relaxing" src={require("../images/hempoil.jpg")} alt="" />
+                       <img className="relaxing" src={require("../images/hempoil.jpg")} alt="hemp oils" />
                        </LazyLoad>
-                       <h5>Essential Oils</h5>
+                       <h5>Hemp Oils</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/cbd-oil-extract/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        </div>

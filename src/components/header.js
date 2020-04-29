@@ -1,22 +1,21 @@
 import React from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Link } from 'gatsby'
 import headerStyles from './header.module.scss'
 import FaAlignJustify from 'react-icons/lib/fa/align-justify'
 import FacebookIcon from '@material-ui/icons/Facebook'
-import InstagramIcon from '@material-ui/icons/Instagram'
 import { Button } from 'react-bootstrap';
 
 
 const Header = () => {
-    const data = useStaticQuery(graphql`
-      query {
-          site {
-              siteMetadata {
-                  title
-              }
-          }
-      }
-    `)
+    // const data = useStaticQuery(graphql`
+    //   query {
+    //       site {
+    //           siteMetadata {
+    //               title
+    //           }
+    //       }
+    //   }
+    // `)
 
     return (
         <div>
@@ -30,7 +29,7 @@ const Header = () => {
                 <ul className={headerStyles.navList}>
                     <li>
                 <Link className={headerStyles.title} to="/">
-                <img className={headerStyles.ggLogo} src={require("../images/gg-logo.png")} />
+                <img className={headerStyles.ggLogo} src={require("../images/gg-logo.png")} alt="Golden Goat Logo" />
                 </Link>
             </li>
                     <li>
@@ -74,7 +73,7 @@ const Header = () => {
 
               <div className={headerStyles.mcNum}>
               <p>
-              <a href="https://www.facebook.com/GoldenGoatUSA/" target="_blank"><FacebookIcon color="primary" fontSize="medium"/></a>
+              <a href="https://www.facebook.com/GoldenGoatUSA/" target="_blank" rel="noopener noreferrer"><FacebookIcon color="primary" fontSize="medium"/></a>
               </p>
               <p className={headerStyles.vline}><a href="https://www.goldengoatcbd.com"><Button variant="success">Shop Now</Button></a></p>
               </div>

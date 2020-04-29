@@ -6,7 +6,6 @@ import footerStyles from './footer.module.scss'
 import { Container, Row, Col } from 'reactstrap';
 
 import FacebookIcon from '@material-ui/icons/Facebook'
-import InstagramIcon from '@material-ui/icons/Instagram'
 
 const Footer = () => {
     const data = useStaticQuery(graphql`
@@ -32,12 +31,11 @@ const Footer = () => {
               <Col className={footerStyles.footerNav}>
                 <h5>CONTACT US</h5>
                 <p>TOLL FREE: <a href="tel:954-826-4318">(800)-888-8888</a></p>
-                <a href="tel:954-826-4318"></a>
-                <p>EMAIL: <a href="">info@betterwellnessusa.com</a></p>
+                <p>EMAIL:<a href="info@betterwellnessusa.com"> info@betterwellnessusa.com</a></p>
                </Col>
                <Col className={footerStyles.footerSocial}>
-               <a href="https://www.facebook.com/GoldenGoatUSA/" target="_blank"><FacebookIcon color="primary" fontSize="medium"/></a>
-              <InstagramIcon color="secondary" fontSize="medium"/>
+               <a href="https://www.facebook.com/GoldenGoatUSA/" target="_blank" rel="noopener noreferrer"><FacebookIcon color="primary" fontSize="medium"/></a>
+              {/* <InstagramIcon color="secondary" fontSize="medium"/> */}
                </Col>
               </Row>
             </Container>
