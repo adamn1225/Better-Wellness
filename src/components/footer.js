@@ -31,7 +31,6 @@ const Footer = () => {
               <Col className={footerStyles.footerNav}>
                 <h5>CONTACT US</h5>
                 <p>TOLL FREE: <a href="tel:954-826-4318">(954)-533-4245</a></p>
-                <p>EMAIL:<a href="info@betterwellnessusa.com"> contact@goldengoatusa.com</a></p>
                </Col>
                <Col className={footerStyles.footerSocial}>
                <a href="https://www.facebook.com/GoldenGoatUSA/" target="_blank" rel="noopener noreferrer"><FacebookIcon color="primary" fontSize="medium"/></a>
