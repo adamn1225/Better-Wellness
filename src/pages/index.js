@@ -45,7 +45,7 @@ const IndexPage = () => {
                    <Row>
                    <div className="transportTypes">
                        <Col>
-                       <img className="relaxing" src={require("../images/oil.jpg")} alt="" />
+                       <img className="relaxing" src={require("../images/oil.jpg")} alt="coconut oils" />
                        
                        <h5>Coconut Oils</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/cbd-coconut-oil/"><Button variant="success">Shop Now</Button></a>
@@ -53,14 +53,14 @@ const IndexPage = () => {
 
                        <Col>
                       
-                       <img className="relaxing" src={require("../images/pain.jpg")} alt="hemp pain cream" />
+                       <img className="relaxing" src={require("../images/pain.jpg")} alt="pain cream" />
                     
                        <h5>Pain Relief</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        <Col>
                       
-                       <img className="relaxing" src={require("../images/honey.jpg")} alt="hemp honey products" />
+                       <img className="relaxing" src={require("../images/honey.jpg")} alt="honey products" />
                        
                        <h5>Honey</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/cbd-honey-sticks/"><Button variant="success">Shop Now</Button></a>
@@ -87,7 +87,7 @@ const IndexPage = () => {
                        <LazyLoad height={200} offset={10} >
                        <img className="relaxing" src={require("../images/hempoil.jpg")} alt="hemp oils" />
                        </LazyLoad>
-                       <h5>Hemp Oils</h5>
+                       <h5>Essential Oils</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/cbd-oil-extract/"><Button variant="success">Shop Now</Button></a>
                        </Col>
                        </div>
