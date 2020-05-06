@@ -19,7 +19,7 @@ const Footer = () => {
     `)
     return (
         <footer className={footerStyles.footer}>
-             <Container>
+             {/* <Container>
               <Row className={footerStyles.linkRow}>
                <Col className={footerStyles.footerSocial} activeClassName={footerStyles.activeNavItem}>
                <h5>Our Products</h5>
@@ -34,10 +34,10 @@ const Footer = () => {
                </Col>
                <Col className={footerStyles.footerSocial}>
                <a href="https://www.facebook.com/GoldenGoatUSA/" target="_blank" rel="noopener noreferrer"><FacebookIcon color="primary" fontSize="medium"/></a>
-              {/* <InstagramIcon color="secondary" fontSize="medium"/> */}
+              <InstagramIcon color="secondary" fontSize="medium"/>
                </Col>
               </Row>
-            </Container>
+            </Container> */}
             <div className={footerStyles.copyright}><p>Owned by {data.site.siteMetadata.author}, copyright 2020</p></div>
             
         </footer>
