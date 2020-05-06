@@ -29,7 +29,7 @@ const Header = () => {
                 <ul className={headerStyles.navList}>
                     <li>
                 <Link className={headerStyles.title} to="/">
-                <img className={headerStyles.ggLogo} src={require("../images/gg-logo.png")} alt="Golden Goat Logo" />
+                <img className={headerStyles.ggLogo} src={require("../images/cc-goldengoat-logo.png")} alt="Golden Goat Logo" />
                 </Link>
             </li>
                     <li>

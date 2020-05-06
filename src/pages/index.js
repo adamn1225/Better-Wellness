@@ -15,7 +15,7 @@ const IndexPage = () => {
 
             <Helmet>
           <meta charSet="utf-8" />
-          <title>Golden Goat USA - Best Prices for the Best Hemp Products</title>
+          <title>Golden Goat USA - Best Prices for the Best Golden Products</title>
            </Helmet> 
            
             <section className="topSec">
@@ -23,7 +23,7 @@ const IndexPage = () => {
             <div className="formText">
             <Col>
             <h1>Healthy living has never been easier</h1>
-            <h4><strong>search our large collection of Hemp Products</strong></h4>
+            <h4><strong>search our large collection of Products</strong></h4>
 
                 <div className="topButtons">
                   <div className="quoteButton">
@@ -44,54 +44,16 @@ const IndexPage = () => {
                    <h1 align="center">Our Products</h1>   
                    <Row>
                    <div className="transportTypes">
-                       <Col>
-                       <img className="relaxing" src={require("../images/oil.jpg")} alt="coconut oils" />
-                       
-                       <h5>Coconut Oils</h5>
-                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-coconut-oil/"><Button variant="success">Shop Now</Button></a>
-                       </Col>
 
                        <Col>
-                      
-                       <img className="relaxing" src={require("../images/pain.jpg")} alt="pain cream" />
+                       <img className="relaxing" src={require("../images/pain.jpg")} alt="Muscle & Join Relief" />
                     
-                       <h5>Pain Relief</h5>
+                       <h5>Muscle & Join Relief</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/"><Button variant="success">Shop Now</Button></a>
                        </Col>
-                       <Col>
-                      
-                       <img className="relaxing" src={require("../images/honey.jpg")} alt="honey products" />
-                       
-                       <h5>Honey</h5>
-                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-honey-sticks/"><Button variant="success">Shop Now</Button></a>
-                       </Col>
+
                        </div>
                    </Row>      
-                   <Row>
-                   <div className="transportTypes">
-                       <Col>
-                       <LazyLoad height={200} offset={10} >
-                       <img className="relaxing" src={require("../images/mct.png")} alt="mct hemp oil" />
-                       </LazyLoad>
-                       <h5>MCT Oils</h5>
-                       <a href="https://goldengoatcbd.com/index.php/product-category/mct-oil/"><Button variant="success">Shop Now</Button></a>
-                       </Col>
-                       <Col>
-                       <LazyLoad height={200} offset={10} >
-                       <img className="relaxing" src={require("../images/pets.jpg")} alt="hemp product for pets" />
-                       </LazyLoad>
-                       <h5>Pet Products</h5>
-                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-treats-for-pets/"><Button variant="success">Shop Now</Button></a>
-                       </Col>
-                       <Col>
-                       <LazyLoad height={200} offset={10} >
-                       <img className="relaxing" src={require("../images/hempoil.jpg")} alt="hemp oils" />
-                       </LazyLoad>
-                       <h5>Essential Oils</h5>
-                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-oil-extract/"><Button variant="success">Shop Now</Button></a>
-                       </Col>
-                       </div>
-                   </Row>
                </Container>
 
                </div>
@@ -116,7 +78,7 @@ const IndexPage = () => {
                   <h3>Who We Are</h3><br />
                   <Container>
                       <Col>
-                      <p>Golden Goat is an American-based company that promotes better and safer hemp-based alternatives for ease and comfort of mind and body.
+                      <p>Golden Goat is an American-based company that promotes better and safer alternatives for ease and comfort of mind and body.
                        Customer satisfaction is our top priority. We strive to exceed your expectations by providing excellent quality, natural ingredients, innovative products and exceptional customer service.</p>
                      
                       </Col>
