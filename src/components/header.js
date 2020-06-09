@@ -32,51 +32,51 @@ const Header = () => {
                 <img className={headerStyles.ggLogo} src={require("../images/cc-goldengoat-logo.png")} alt="Golden Goat Logo" />
                 </Link>
             </li>
-                    <li>
+                    {/* <li>
                 <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/">Home</Link> 
                     </li><br />
                      <li> 
                     <div className={headerStyles.dropdown}>
-                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="https://goldengoatcbd.com/index.php/shop/">Products</a>
+                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">Products</a>
                       <div className={headerStyles.dropdownItems}>
-                      <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/">Pain Relief</a>
-                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-treats-for-pets/">Pets</a>
-                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-coconut-oil/">Coconut Oils</a>
-                       <a href="https://goldengoatcbd.com/index.php/product-category/cbd-oil-extract/">Hemp Oils</a>
-                       <a href="https://goldengoatcbd.com/index.php/product-category/mct-oil/">MCT Oils</a>
+                      <a href="#">Pain Relief</a>
+                       <a href="#">Pets</a>
+                       <a href="#">Coconut Oils</a>
+                       <a href="#">Hemp Oils</a>
+                       <a href="#">MCT Oils</a>
                      </div>
                     </div>
                     </li>
                     <br />
                     <li>
-                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="https://goldengoatcbd.com/index.php/about-us/">About</a>
+                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">About</a>
                     </li>
 
 
                      <li>
-                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="https://goldengoatcbd.com/index.php/contact/">Contact</a>
-                    </li>
+                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">Contact</a>
+                    </li> */}
 
                 </ul>
 
                 {/* mobile menu */}
 
-                <div className={headerStyles.mobList}>
+                {/* <div className={headerStyles.mobList}>
                     <h1><FaAlignJustify /></h1>
                     <div className={headerStyles.mobItems}>
-                       <a href="https://goldengoatcbd.com/index.php/shop/">Products</a>
-                       <a href="https://goldengoatcbd.com/index.php/about-us/">About Us</a>
-                       <a href="https://goldengoatcbd.com/index.php/contact/">Contact</a>
+                       <a href="#">Products</a>
+                       <a href="#">About Us</a>
+                       <a href="#">Contact</a>
                     </div>
-                </div>
+                </div> */}
 
 
-              <div className={headerStyles.mcNum}>
+              {/* <div className={headerStyles.mcNum}>
               <p>
               <a href="https://www.facebook.com/GoldenGoatUSA/" target="_blank" rel="noopener noreferrer"><FacebookIcon color="primary" fontSize="medium"/></a>
               </p>
-              <p className={headerStyles.vline}><a href="https://www.goldengoatcbd.com"><Button variant="success">Shop Now</Button></a></p>
-              </div>
+              <p className={headerStyles.vline}><a href="#"><Button variant="success">Shop Now</Button></a></p>
+              </div> */}
               </div>
             </nav>
 

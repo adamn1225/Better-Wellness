@@ -23,15 +23,15 @@ const IndexPage = () => {
             <div className="formText">
             <Col>
             <h1>Healthy living has never been easier</h1>
-            <h4><strong>search our large collection of Hemp Products</strong></h4>
+            {/* <h4><strong>search our large collection of Products</strong></h4> */}
 
                 <div className="topButtons">
                   <div className="quoteButton">
-                    <a href="https://goldengoatcbd.com/index.php/shop/"><Button variant="success">Shop Now</Button></a>
+                    <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/"><Button variant="success">Shop Now</Button></a>
                   </div>
-                  <div className="careerButton">
+                  {/* <div className="careerButton">
                     <Link to="/form"><Button variant="outline">Get Info</Button></Link>
-                   </div>
+                   </div> */}
                 </div>
 
                 </Col>
@@ -46,7 +46,7 @@ const IndexPage = () => {
                    <div className="transportTypes">
 
                        <Col>
-                       <img className="relaxing" src={require("../images/pain.jpg")} alt="Muscle & Join Relief" />
+                       <img className="relaxing" src={require("../images/pain.jpg")} alt="Muscle & Joint Relief" />
                     
                        <h5>Muscle & Joint Relief</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/"><Button variant="success">Shop Now</Button></a>
@@ -145,14 +145,14 @@ const IndexPage = () => {
                       </LazyLoad>
                   </Row>
                   </Container> */}
-                  <article className='ctaSection'>
+                  {/* <article className='ctaSection'>
                       <Col className="cta">
                       <h2>Get 10% Off With Your Purchase</h2>
                       <div className="quoteButton">
                     <a href="https://goldengoatcbd.com/index.php/shop/"><Button variant="success">Shop Now</Button></a>
                   </div>
                       </Col>              
-                 </article>
+                 </article> */}
 
           
         </Layout>
