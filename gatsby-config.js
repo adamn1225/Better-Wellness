@@ -6,8 +6,8 @@
 
 module.exports = {
     siteMetadata: {
-      title: 'Better Wellness',
-      author: 'Better Wellnes USA'
+      title: 'Golden Goat USA',
+      author: 'Golden Goat USA'
     },
     plugins: [
       'gatsby-plugin-sass',

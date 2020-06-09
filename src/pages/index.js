@@ -46,7 +46,7 @@ const IndexPage = () => {
                    <div className="transportTypes">
 
                        <Col>
-                       <img className="relaxing" src={require("../images/pain.jpg")} alt="Muscle & Joint Relief" />
+                       <img className="relaxing" src={require("../images/goldengoatusa-roll-on-h.jpg")} alt="Muscle & Joint Relief" />
                     
                        <h5>Muscle & Joint Relief</h5>
                        <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/"><Button variant="success">Shop Now</Button></a>
