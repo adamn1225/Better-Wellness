@@ -6,14 +6,15 @@ import testStyles from './testimonials.module.scss'
 
 function Testimonials() {
     const [index, setIndex] = useState(0);
-    const [direction, setDirection] = useState(null);
+
     const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-        setDirection(e.direction);
+      setIndex(selectedIndex);
     };
+
+
     return (
     
-    <Carousel className={testStyles.reviews} activeIndex={index} direction={direction} onSelect={handleSelect}>
+    <Carousel className={testStyles.reviews} activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
         <h1>Allison H.</h1>
                 <p>"This product has been a huge relief and I absolutely recommend!"</p>
