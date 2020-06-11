@@ -28,6 +28,18 @@ module.exports = {
           anonymize: true,
         },
       },
+      {
+        resolve: "gatsby-plugin-google-tagmanager",
+        options: {
+          id: "	GTM-M6BMKKW",
+          includeInDevelopment: false,
+          defaultDataLayer: { platform: "gatsby" },
+          gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
+          gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
+          dataLayerName: "YOUR_DATA_LAYER_NAME",
+          routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
+        },
+      },
       'gatsby-plugin-sass',
       {
         resolve: `gatsby-plugin-facebook-pixel`,

@@ -4,6 +4,7 @@ import headerStyles from './header.module.scss'
 import FaAlignJustify from 'react-icons/lib/fa/align-justify'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import { Button } from 'react-bootstrap';
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 
 const Header = () => {
@@ -37,24 +38,24 @@ const Header = () => {
                     </li><br />
                      <li> 
                     <div className={headerStyles.dropdown}>
-                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">Products</a>
+                <OutboundLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">Products</OutboundLink>
                       <div className={headerStyles.dropdownItems}>
-                      <a href="#">Pain Relief</a>
-                       <a href="#">Pets</a>
-                       <a href="#">Coconut Oils</a>
-                       <a href="#">Hemp Oils</a>
-                       <a href="#">MCT Oils</a>
+                      <OutboundLink href="#">Pain Relief</OutboundLink>
+                       <OutboundLink href="#">Pets</OutboundLink>
+                       <OutboundLink href="#">Coconut Oils</OutboundLink>
+                       <OutboundLink href="#">Hemp Oils</OutboundLink>
+                       <OutboundLink href="#">MCT Oils</OutboundLink>
                      </div>
                     </div>
                     </li>
                     <br />
                     <li>
-                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">About</a>
+                <OutboundLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">About</OutboundLink>
                     </li>
 
 
                      <li>
-                <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">Contact</a>
+                <OutboundLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">Contact</OutboundLink>
                     </li>
 
                 </ul>
@@ -64,18 +65,18 @@ const Header = () => {
                 <div className={headerStyles.mobList}>
                     <h1><FaAlignJustify /></h1>
                     <div className={headerStyles.mobItems}>
-                       <a href="#">Products</a>
-                       <a href="#">About Us</a>
-                       <a href="#">Contact</a>
+                       <OutboundLink href="#">Products</OutboundLink>
+                       <OutboundLink href="#">About Us</OutboundLink>
+                       <OutboundLink href="#">Contact</OutboundLink>
                     </div>
                 </div>
 
 
               <div className={headerStyles.mcNum}>
               <p>
-              <a href="https://www.facebook.com/GoldenGoatUSA/" target="_blank" rel="noopener noreferrer"><FacebookIcon color="primary" fontSize="medium"/></a>
+              <OutboundLink href="https://www.facebook.com/GoldenGoatUSA/" target="_blank" rel="noopener noreferrer"><FacebookIcon color="primary" fontSize="medium"/></OutboundLink>
               </p>
-              <p className={headerStyles.vline}><a href="#"><Button variant="success">Shop Now</Button></a></p>
+              <p className={headerStyles.vline}><OutboundLink href="#"><Button variant="success">Shop Now</Button></OutboundLink></p>
               </div>
               </div>
             </nav>

@@ -8,6 +8,8 @@ import '../styles/styles.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import { Container, Row, Col } from 'reactstrap';
+import { OutboundLink } from "gatsby-plugin-google-analytics"
+
 
 const IndexPage = () => {
     return (
@@ -27,7 +29,7 @@ const IndexPage = () => {
 
                 <div className="topButtons">
                   <div className="quoteButton">
-                    <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/"><Button variant="success">Shop Now</Button></a>
+                    <OutboundLink href="https://goldengoatcbd.com/index.php/product-category/pain-relief/"><Button variant="success">Shop Now</Button></OutboundLink>
                   </div>
                   {/* <div className="careerButton">
                     <Link to="/form"><Button variant="outline">Get Info</Button></Link>
@@ -46,11 +48,11 @@ const IndexPage = () => {
                    <div className="transportTypes">
 
                        <Col>
-                       <a href="https://goldengoatcbd.com/index.php/product-category/pain-relief/">
+                       <OutboundLink href="https://goldengoatcbd.com/index.php/product-category/pain-relief/">
                        <img className="relaxing" src={require("../images/goldengoatusa-roll-on-h.jpg")} alt="Muscle & Joint Relief" />
                     
                        <h5>Muscle & Joint Relief</h5>
-                       <Button variant="success">Shop Now</Button></a>
+                       <Button variant="success">Shop Now</Button></OutboundLink>
                        </Col>
 
                        </div>
