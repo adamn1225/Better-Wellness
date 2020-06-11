@@ -32,7 +32,7 @@ const Header = () => {
                 <img className={headerStyles.ggLogo} src={require("../images/cc-goldengoat-logo.png")} alt="Golden Goat Logo" />
                 </Link>
             </li>
-                    {/* <li>
+                    <li>
                 <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/">Home</Link> 
                     </li><br />
                      <li> 
@@ -55,36 +55,31 @@ const Header = () => {
 
                      <li>
                 <a className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">Contact</a>
-                    </li> */}
+                    </li>
 
                 </ul>
 
                 {/* mobile menu */}
 
-                {/* <div className={headerStyles.mobList}>
+                <div className={headerStyles.mobList}>
                     <h1><FaAlignJustify /></h1>
                     <div className={headerStyles.mobItems}>
                        <a href="#">Products</a>
                        <a href="#">About Us</a>
                        <a href="#">Contact</a>
                     </div>
-                </div> */}
+                </div>
 
 
-              {/* <div className={headerStyles.mcNum}>
+              <div className={headerStyles.mcNum}>
               <p>
               <a href="https://www.facebook.com/GoldenGoatUSA/" target="_blank" rel="noopener noreferrer"><FacebookIcon color="primary" fontSize="medium"/></a>
               </p>
               <p className={headerStyles.vline}><a href="#"><Button variant="success">Shop Now</Button></a></p>
-              </div> */}
+              </div>
               </div>
             </nav>
 
-            {/* <div className={headerStyles.mcNum}>
-                <p>MC# 1322334</p>
-                <p className={headerStyles.vline}>Talk To Us!<br /> <a href="tel:800-888-8888">800-888-8888</a></p>
-                <Link className={headerStyles.Buttonvline} to="/form"><Button variant="info">Get Quote</Button></Link>
-            </div> */}
             
         </header>
         </div>
