@@ -15,13 +15,15 @@ module.exports = {
         options: {
           // replace "UA-XXXXXXXXX-X" with your own Tracking ID
           trackingId: "UA-157289554-2",
+          head: false,
+          pageTransitionDelay: 0,
         },
       },
       'gatsby-plugin-sass',
       {
         resolve: `gatsby-plugin-facebook-pixel`,
         options: {
-          pixelId: 'pixel id here',
+          pixelId: '775109709257197',
         },
       },
       {
