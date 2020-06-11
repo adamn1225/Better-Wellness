@@ -10,7 +10,20 @@ module.exports = {
       author: 'Golden Goat USA'
     },
     plugins: [
+      {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+          // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+          trackingId: "UA-157289554-2",
+        },
+      },
       'gatsby-plugin-sass',
+      {
+        resolve: `gatsby-plugin-facebook-pixel`,
+        options: {
+          pixelId: 'pixel id here',
+        },
+      },
       {
         resolve: 'gatsby-source-filesystem',
         options: {
