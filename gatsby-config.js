@@ -37,7 +37,7 @@ module.exports = {
           gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
           gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
           dataLayerName: "YOUR_DATA_LAYER_NAME",
-          routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
+          routeChangeEventName: "gatsby-route-change",
         },
       },
       'gatsby-plugin-sass',
