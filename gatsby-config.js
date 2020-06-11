@@ -15,8 +15,8 @@ module.exports = {
         options: {
           // replace "UA-XXXXXXXXX-X" with your own Tracking ID
           trackingId: "UA-157289554-2",
-          head: false,
-          pageTransitionDelay: 0,
+          head: true,
+          anonymize: true,
         },
       },
       'gatsby-plugin-sass',
