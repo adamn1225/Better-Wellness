@@ -4,6 +4,15 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+const activeEnv =
+  process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development"
+console.log(`Using environment config: '${activeEnv}'`)
+require("dotenv").config({
+  path: `.env.${activeEnv}`,
+  apiUrl: process.env.API_URL,
+})
+
+
 module.exports = {
     siteMetadata: {
       title: 'Golden Goat USA',
@@ -14,7 +23,7 @@ module.exports = {
         resolve: `gatsby-plugin-google-analytics`,
         options: {
           // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-          trackingId: "UA-157289554-2",
+          trackingId: "process.env.GA_TRACKING_ID",
           head: true,
           anonymize: true,
         },
