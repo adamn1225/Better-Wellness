@@ -29,33 +29,33 @@ const Header = () => {
            <div className={headerStyles.flex}>
                 <ul className={headerStyles.navList}>
                     <li>
-                <Link className={headerStyles.title} to="/">
+                <OutboundLink className={headerStyles.title} href="https://goldengoatcbd.com/index.php/shop/">
                 <img className={headerStyles.ggLogo} src={require("../images/cc-goldengoat-logo.png")} alt="Golden Goat Logo" />
-                </Link>
+                </OutboundLink>
             </li>
                     <li>
-                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/">Home</Link> 
+                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="https://goldengoatcbd.com/">Home</Link> 
                     </li><br />
                      <li> 
                     <div className={headerStyles.dropdown}>
-                <OutboundLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">Products</OutboundLink>
+                <OutboundLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="https://goldengoatcbd.com/index.php/shop/">Products</OutboundLink>
                       <div className={headerStyles.dropdownItems}>
-                      <OutboundLink href="#">Pain Relief</OutboundLink>
-                       <OutboundLink href="#">Pets</OutboundLink>
-                       <OutboundLink href="#">Coconut Oils</OutboundLink>
-                       <OutboundLink href="#">Hemp Oils</OutboundLink>
-                       <OutboundLink href="#">MCT Oils</OutboundLink>
+                      <OutboundLink href="https://goldengoatcbd.com/index.php/product-category/pain-relief/">Pain Relief</OutboundLink>
+                       <OutboundLink href="https://goldengoatcbd.com/index.php/product-category/cbd-treats-for-pets/">Pets</OutboundLink>
+                       <OutboundLink href="https://goldengoatcbd.com/index.php/product-category/cbd-coconut-oil/">Coconut Oils</OutboundLink>
+                       <OutboundLink href="https://goldengoatcbd.com/index.php/product-category/cbd-oil-extract/">Hemp Oils</OutboundLink>
+                       <OutboundLink href="https://goldengoatcbd.com/index.php/product-category/cbd-oil-extract/">MCT Oils</OutboundLink>
                      </div>
                     </div>
                     </li>
                     <br />
                     <li>
-                <OutboundLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">About</OutboundLink>
+                <OutboundLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="https://goldengoatcbd.com/index.php/about-us/">About</OutboundLink>
                     </li>
 
 
                      <li>
-                <OutboundLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="#">Contact</OutboundLink>
+                <OutboundLink className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  href="https://goldengoatcbd.com/index.php/contact/">Contact</OutboundLink>
                     </li>
 
                 </ul>
@@ -65,9 +65,9 @@ const Header = () => {
                 <div className={headerStyles.mobList}>
                     <h1><FaAlignJustify /></h1>
                     <div className={headerStyles.mobItems}>
-                       <OutboundLink href="#">Products</OutboundLink>
-                       <OutboundLink href="#">About Us</OutboundLink>
-                       <OutboundLink href="#">Contact</OutboundLink>
+                       <OutboundLink href="https://goldengoatcbd.com/index.php/shop/">Products</OutboundLink>
+                       <OutboundLink href="https://goldengoatcbd.com/index.php/about-us/">About Us</OutboundLink>
+                       <OutboundLink href="https://goldengoatcbd.com/index.php/contact/">Contact</OutboundLink>
                     </div>
                 </div>
 
@@ -76,7 +76,7 @@ const Header = () => {
               <p>
               <OutboundLink href="https://www.facebook.com/GoldenGoatUSA/" target="_blank" rel="noopener noreferrer"><FacebookIcon color="primary" fontSize="medium"/></OutboundLink>
               </p>
-              <p className={headerStyles.vline}><OutboundLink href="#"><Button variant="success">Shop Now</Button></OutboundLink></p>
+              <p className={headerStyles.vline}><OutboundLink href="https://goldengoatcbd.com/index.php/shop/"><Button variant="success">Shop Now</Button></OutboundLink></p>
               </div>
               </div>
             </nav>
