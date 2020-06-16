@@ -29,7 +29,7 @@ const IndexPage = () => {
 
                 <div className="topButtons">
                   <div className="quoteButton">
-                    <OutboundLink href="https://goldengoatcbd.com/index.php/product-category/pain-relief/"><Button variant="success">Shop Now</Button></OutboundLink>
+                    <OutboundLink href="https://goldengoatcbd.com/index.php/shop/"><Button variant="success">Shop Now</Button></OutboundLink>
                   </div>
                   {/* <div className="careerButton">
                     <Link to="/form"><Button variant="outline">Get Info</Button></Link>
