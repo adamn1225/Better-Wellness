@@ -43,7 +43,6 @@ const IndexPage = () => {
                 
            <div className="second">
                <Container className="homeShop">     
-                   <h1 align="center">Our Products</h1>   
                    <Row>
                    <div className="transportTypes">
 
@@ -54,6 +53,7 @@ const IndexPage = () => {
                        <h5>Muscle & Joint Relief</h5>
                        <Button variant="success">Shop Now</Button></OutboundLink>
                        </Col>
+                       
 
                        </div>
                    </Row>      
