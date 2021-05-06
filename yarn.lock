@@ -958,6 +958,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.12.5":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/standalone@^7.10.2":
   version "7.10.2"
   resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.10.2.tgz#49dbbadcbc4b199df064d7d8b3e21c915b84abdb"
@@ -6618,6 +6625,13 @@ gatsby-plugin-google-analytics@^2.3.4:
     "@babel/runtime" "^7.10.2"
     minimatch "3.0.4"
 
+gatsby-plugin-google-tagmanager@^2.3.5:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.11.0.tgz#e6fc5e662cc2e11451e8e4c5d762c73ee94b5916"
+  integrity sha512-TElfBrcitk3bYphBpfFv7rI+tYQ/SwKhQMNKj3J31yoVUh/GUu2/FnRwEpvNbfGkTql87DffxR/83mN4vUCWOA==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+
 gatsby-plugin-page-creator@^2.3.9:
   version "2.3.9"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-2.3.9.tgz#b0793cf1340dc903560791fea4948c28b2d302ad"
@@ -11848,9 +11862,9 @@ proper-lockfile@^4.1.1:
     signal-exit "^3.0.2"
 
 property-expr@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/property-expr/-/property-expr-2.0.2.tgz#fff2a43919135553a3bc2fdd94bdb841965b2330"
-  integrity sha512-bc/5ggaYZxNkFKj374aLbEDqVADdYaLcFo8XBkishUWbaAdjlphaBFns9TvRA2pUseVL/wMFmui9X3IdNDU37g==
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/property-expr/-/property-expr-2.0.4.tgz#37b925478e58965031bb612ec5b3260f8241e910"
+  integrity sha512-sFPkHQjVKheDNnPvotjQmm3KD3uk1fWKUN7CrpdbwmUx3CrG3QiM8QpTSimvig5vTXmTvjz7+TDvXOI9+4rkcg==
 
 property-information@^4.0.0:
   version "4.2.0"
